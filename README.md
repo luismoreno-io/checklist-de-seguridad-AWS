@@ -5,7 +5,7 @@ Son bienvenidos todos los aportes, corrección de errores de cualquier tipo, ide
 
 La lista se estará actualizando y creciendo todo el tiempo mientras vamos teniendo tiempo, se nos va ocurriendo nuevas cosas, vamos conociendo más sobre la plataforma y Amazon agrega nuevos servicios y opciones, vamos a tener videos para cada recomendación y más documentación.
 
-Administración de Identidad y Acceso IAM - Identity and Access Management
+## Administración de Identidad y Acceso - IAM Identity and Access Management
 
 * Habilita el doble factor de autenticación (2FA) para la cuenta root como mínimo, habilitar 2FA en todas tus cuentas es lo mejor
 * Evita usar la cuenta de root o sus llaves como cuenta de uso diario

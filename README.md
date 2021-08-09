@@ -1,9 +1,9 @@
 # Checklist de Seguridad AWS
 La idea es crear un checklist que sea de fácil consulta y en español para ayudar a todo aquel que necesite asegurar sus cargas, cuentas, servicios en la nube de Amazon AWS.
 
-Son bienvenidos todos los aportes, corrección de errores de cualquier tipo, ideas, consejos, etc.
-
 La lista se estará actualizando y creciendo todo el tiempo mientras vamos teniendo tiempo, se nos va ocurriendo nuevas cosas, vamos conociendo más sobre la plataforma y Amazon agrega nuevos servicios y opciones, vamos a tener videos para cada recomendación y más documentación.
+
+Son bienvenidos todos los aportes, corrección de errores de cualquier tipo, ideas, consejos, omisiones, etc.
 
 ## Administración de Identidad y Acceso - IAM Identity and Access Management
 
@@ -16,6 +16,7 @@ La lista se estará actualizando y creciendo todo el tiempo mientras vamos tenie
 * Da acceso a los recursos a través de IAM Roles
 * Asigna los permisos mínimos necesarios cuando crees políticas IAM (IAM Policies) 
 * Agrega las políticas IAM (IAM Policies) a Grupos o Roles cuando las crees
-* Usa condiciones siempre que sea posible a las políticas (Policies) cuando des permiso a algún recurso
-* Deshazte de credenciales innecesarias, cuentas que están inactivas o ya no se usan
+* Cuando des permiso a algún recurso y siempre que sea posible usa condiciones en las políticas (Policies) sin hacerlas demasiado complicadas, recuerda que la complejidad es enemiga de la seguridad
+* Elimina credenciales innecesarias, cuentas que están inactivas o que ya no se usan
 * Usa Roles (IAM Roles) para asignar acceso a aplicaciones o instancias EC2
+* Emplea proveedores de identidad centralizados como AWS SSO o un proveedor de terceros
